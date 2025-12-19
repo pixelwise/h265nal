@@ -159,7 +159,7 @@ install(FILES
 
 
 # Recurse into source code subdirectories.
-# add_subdirectory(tools)
+add_subdirectory(tools)
 # add_subdirectory(test)
 
 option(BUILD_CLANG_FUZZER "Build clang fuzzer sanitizer targets" ON)

@@ -27,7 +27,7 @@
 #include <cstring>
 #include <string>
 
-#include "config.h"
+//#include "config.h"
 #include "h265_bitstream_parser.h"
 #include "h265_common.h"
 #include "h265_configuration_box_parser.h"
@@ -275,7 +275,7 @@ arg_options *parse_args(int argc, char **argv) {
       } break;
 
       case VERSION_OPTION:
-        fprintf(stdout, "version: %s\n", PROJECT_VER);
+        //fprintf(stdout, "version: %s\n", PROJECT_VER);
         exit(0);
         break;
 
